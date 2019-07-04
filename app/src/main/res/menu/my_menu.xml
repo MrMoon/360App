@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/mainHome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/Home" />
+
+    <item
+            android:id="@+id/mainCategories"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/categories" />
+
+    <item
+            android:id="@+id/mainProfile"
+            android:icon="@drawable/profile"
+            android:title="@string/Profile" />
+
+</menu>

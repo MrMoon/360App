@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.CategoriesActivity"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/gridViewCategories"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="2"
+              android:scrollbars="vertical"
+              android:verticalSpacing="20dp"
+              android:horizontalSpacing="20dp"
+              android:numColumns="2"/>
+    <LinearLayout
+            android:id="@+id/NavigationBottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+        <Button
+                android:id="@+id/btnDashboardCate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/navigationBottomHome"
+                android:background="@drawable/navigation_buttons"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/btnCategoriesCate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/navigationBottomCategories"
+                android:background="@drawable/navigation_buttons"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/btnProfileCate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/navigationBottomProfile"
+                android:background="@drawable/navigation_buttons"
+                android:layout_weight="1"/>
+        <Button
+                android:id="@+id/btnTest"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/test"
+                android:background="@drawable/navigation_buttons"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

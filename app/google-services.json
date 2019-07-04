@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "101203053048",
+    "firebase_url": "https://moonapp-1609.firebaseio.com",
+    "project_id": "moonapp-1609",
+    "storage_bucket": "moonapp-1609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101203053048:android:f1ab7dc91ba31d79",
+        "android_client_info": {
+          "package_name": "com.ma.moon.moonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101203053048-m0qfg8hf8p975c7v6d9ptmh4ep7v300i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ma.moon.moonapp",
+            "certificate_hash": "9ac7c378323e78aa42582bd9ea9171377a81ff6a"
+          }
+        },
+        {
+          "client_id": "101203053048-ali9ovd8vhrkdstge3ucnbaqvvqe7ifh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi8uNiFwZ2plenUmcxfo3fZ0L00NUCpiA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101203053048-ali9ovd8vhrkdstge3ucnbaqvvqe7ifh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
